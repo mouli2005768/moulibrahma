@@ -1,0 +1,56 @@
+.photo {
+    width: 300px;      /* Adjust width as needed */
+    height: 330px;     /* Adjust height to make it oval */
+    border-radius: 50%; /* This will make the image oval */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    margin: 20px 0;
+  }
+  .question-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+ button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #yes {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #no {
+    background-color: #f44336;
+    color: white;
+  }
+#yes {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #no {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+  }

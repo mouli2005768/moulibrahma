@@ -1,0 +1,12 @@
+/* Disable scrolling */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Disable scrolling */
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
